@@ -1,0 +1,80 @@
+body,header,nav,main,footer,img,h1,h2{
+margin:0;
+padding:0;
+border:0;
+}
+body{background-color:#5a5a5a;
+}
+img{max-width:100%;
+display:block;
+}
+header{text-align:center;		
+color:#8b0000; 				
+width:20%;
+float:left;
+}
+header h1{font-size:3em;
+margin-top:0.25em;
+font-family:Garamond,Times,serif;
+}
+header h3{font-style:italic;
+font-size:1.25em;
+font-family:Futura,Arial,sans-serif;
+}
+nav{background-color:#3f0000;
+width:73%;
+float:left;
+}
+nav ul{list-style-type:none;
+margin:5em 1em;
+text-align:center;
+}
+nav li{display:inline-block;
+font-size:1.25em;
+font-family:Verdana,Arial,sans-serif;
+font-weight:bold;
+}
+nav li a{display:block;
+color:#8b0000;
+text-align:center;
+padding:0.5em 1em;
+text-decoration:none;
+}
+#hero{clear:left;
+}
+main{padding:2%;
+background-color:#5a5a5a; 
+clear:left;
+overflow:auto;
+font-family:Verdana,Arial,sans-serif;	
+}
+main h2{color:#8b0000;
+	
+}
+main p{font-size:1.25em;	
+}
+main ul{list-style-type:square;
+	
+}
+#Console,#Pc,#Mobile, #Spiderman, #Minecraft, #Bully, #GTA, #My Setup , #Monitors , #Keyboard , #Pc , #Youtube, #Twitch, #Facebook, #Discord, #Twitter {width:29%;
+float:left;
+margin:0 2%;
+	
+}
+footer{
+	text-align:center;
+	font-size:0.85em;
+	clear:left;
+	color:#8b0000;
+	font-weight:bold;
+}
+footer a{color:#8b0000;
+
+	text-decoration:none;
+}
+.ctn {
+  font-size: 2vmin;
+  padding: 8px 15px;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  color: #3CAEA3;
